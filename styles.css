@@ -1,0 +1,103 @@
+ <style>
+        }
+        
+        h1 {
+            color: #1F51FF;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #ffffff;
+            background-color: #225577;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        h3 {
+            color: #ffffff;
+            background-color: #222222;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        p {
+            color: #01F9C6;
+            padding: 10px;
+            background-color: #000000;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 10;
+            margin: 10;
+            font-size: 20px;
+        }
+        
+        ul li {
+            margin-bottom: 10px;
+        }
+        
+        ul li::before {
+            content: "\2022";
+            font-weight: bold;
+            display: inline-block
+            width: 20px;
+            margin-left: -20px;
+            font-size: 20px;
+        }
+        
+        ol {
+            padding: 10;
+            margin: 10;
+        }
+        
+        ol li {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #DC143C;
+        }
+        
+        img {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid #ffffff;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        
+        td {
+            background-color: #444444;
+            color: #ffffff;
+        }
+      
+        a {
+          
+          text-decoration: underline;
+        }
+    </style>
